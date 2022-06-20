@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+* to reset your branch run `./start_quest.sh` (or `npm run init`)
+* You'll need docker to run this project, so install it here: https://docs.docker.com/get-docker/
+* to start docker compose run `docker-compose up` or `npm start`
+* To verify backend is running, brows to  http://localhost:3000/api/ping
+* If set, browse to  http://localhost:3001/register and register new user by giving name, password and email.
+* to stop docker compose run `docker-compose up` or `npm stop`
+* to examine backend container run `npm run logs-backend`

@@ -1,0 +1,22 @@
+{
+  "name": "wilco",
+  "version": "1.0.0",
+  "description": "To start the app use Docker. It will start both frontend and backend, including all the relevant dependencies, and the db.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "./start_quest.sh",
+    "start":"docker-compose up -d",
+    "stop":"docker-compose down -d",
+    "logs-backend" : "docker logs anythink-backend --follow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ObelusFamily/Anythink-Market-t8ay3.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ObelusFamily/Anythink-Market-t8ay3/issues"
+  },
+  "homepage": "https://github.com/ObelusFamily/Anythink-Market-t8ay3#readme"
+}
